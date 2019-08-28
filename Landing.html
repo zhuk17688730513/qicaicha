@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>html</title>
+<link rel="stylesheet" href="css/reset.css"><!--样式重置-->
+<link rel="stylesheet" href="css/style.css"><!--页面样式-->
+</head>
+<body class="bg6">
+	<div class="landing">
+		<em class="em_back"></em>
+		<div class="land-tbas">
+			<span class="acti">账号密码登录</span>
+			<span>微信快速登录</span>
+		</div>
+		<div class="box">
+			<form action="">
+				<ul>
+					<li><input type="tel" placeholder="手机号/邮箱"></li>
+					<li><input class="in1" type="password" placeholder="密码" maxlength="20"><span><a href="#">忘记密码？</a></span></li>
+				</ul>
+				<p><button>登陆</button> <span>还没账号？ <a href="registered.html">立即注册</a></span></p>
+			</form>
+		</div>
+		<div class="box">
+			<div class="wechat-pic"><img src="img/3e972_224x227.jpg" alt=""></div>
+			<p class="p1">还没有注册账户？ <a href="registered.html">立即注册</a></p>
+		</div>
+	</div>
+<script src="js/jquery.min.js"></script><!--jQuery库-->
+<script src="js/Epp-2.1.1.min.js"></script>
+<script>
+ tabs(".land-tbas span",".landing .box","click","acti","",0)
+</script>
+</body>
+</html>
+ 
